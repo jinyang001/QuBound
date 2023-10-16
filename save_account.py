@@ -1,0 +1,9 @@
+from qiskit_ibm_runtime import QiskitRuntimeService
+
+# Save an IBM Quantum account.
+QiskitRuntimeService.save_account(channel="ibm_quantum", token="2dd6975873f543e81927587054bd90f83a5fd36f5c08c0bb9628387244baa7a46131a268e9452d121fb1820d52aef423b7902587c2cf97a2f213807e82308af2")
+#
+# QiskitRuntimeService.save_account(channel="ibm_quantum", token="2dd6975873f543e81927587054bd90f83a5fd36f5c08c0bb9628387244baa7a46131a268e9452d121fb1820d52aef423b7902587c2cf97a2f213807e82308af2")
+from qiskit import IBMQ
+from qiskit_ibm_provider import IBMProvider
+IBMProvider.save_account(token='2dd6975873f543e81927587054bd90f83a5fd36f5c08c0bb9628387244baa7a46131a268e9452d121fb1820d52aef423b7902587c2cf97a2f213807e82308af2')
