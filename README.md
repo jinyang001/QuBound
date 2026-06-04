@@ -65,11 +65,6 @@ Clone the repository and install dependencies:
 git clone https://github.com/<your-github-username>/QuBound.git
 cd QuBound
 
-python -m venv .venv
-source .venv/bin/activate       # macOS/Linux
-# .venv\Scripts\activate      # Windows
-
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
