@@ -1,12 +1,12 @@
 # QuBound
 
-**QuBound** is a data-driven framework for predicting quantum output bounds on noisy quantum computers. The code in this repository supports experiments that learn time-dependent probability bounds from historical backend noise properties and quantum circuit execution data.
+**QuBound** is a data-driven framework for predicting quantum output bounds on noisy quantum computers. The code in this repository supports experiments that learn quantum circuit performance bounds from historical backend noise properties and quantum circuit execution data.
 
 The current release contains the core scripts, selected example datasets, and a small saved model checkpoint for reproducing the included GHZ-style bound prediction workflow.
 
 ## Overview
 
-Noisy quantum computers can show time-varying behavior because backend calibration properties such as gate errors, readout errors, and coherence times change over time. QuBound uses these backend properties together with circuit-level information to predict upper and lower bounds for quantum circuit output probabilities.
+Noisy quantum computers can show time-varying behavior because backend calibration properties such as gate errors, readout errors, and coherence times change over time. QuBound uses these backend properties together with circuit-level information to predict upper and lower bounds for quantum circuit output.
 
 This repository includes:
 
@@ -41,7 +41,7 @@ This repository includes:
 
 Recommended environment:
 
-- Python 3.9 or 3.10
+- Python 3.8 or 3.9
 - PyTorch
 - Qiskit / Qiskit Aer
 - Qiskit IBM Provider
