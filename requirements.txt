@@ -1,0 +1,20 @@
+# Core scientific stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+statsmodels>=0.14
+scikit-learn>=1.2
+matplotlib>=3.7
+
+# Deep learning
+torch>=2.0
+torchmetrics>=1.0
+
+# Quantum computing
+# The current scripts use legacy Qiskit APIs such as:
+#   from qiskit import Aer, execute
+#   from qiskit.providers.fake_provider import FakeMumbai, FakeKolkata
+qiskit==0.45.3
+qiskit-aer==0.13.3
+qiskit-ibm-provider==0.11.0
+supermarq>=0.4
