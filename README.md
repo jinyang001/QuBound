@@ -66,6 +66,9 @@ git clone https://github.com/<your-github-username>/QuBound.git
 cd QuBound
 
 pip install -r requirements.txt
+cd QuBound
+
+pip install -r requirements.txt
 ```
 
 ## Quick start
