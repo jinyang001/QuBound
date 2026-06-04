@@ -139,6 +139,7 @@ You may need to modify the backend name, date range, and output filename inside 
 
 If you use this repository in academic work, please cite the corresponding QuBound paper.
 
+```bibtex
 @article{li2025computational,
   title={Computational Performance Bounds Prediction in Quantum Computing With Unstable Noise},
   author={Li, Jinyang and Dasgupta, Samudra and Song, Yuhong and Yang, Lei and Humble, Travis and Jiang, Weiwen},
@@ -146,3 +147,4 @@ If you use this repository in academic work, please cite the corresponding QuBou
   year={2025},
   publisher={IEEE}
 }
+```
