@@ -62,10 +62,8 @@ The current scripts use some legacy Qiskit APIs, including `Aer`, `execute`, and
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-github-username>/QuBound.git
-cd QuBound
+git clone https://github.com/jinyang001/QuBound.git
 
-pip install -r requirements.txt
 cd QuBound
 
 pip install -r requirements.txt
@@ -139,4 +137,12 @@ You may need to modify the backend name, date range, and output filename inside 
 
 ## Citation
 
-If you use this repository in academic work, please cite the corresponding QuBound paper or add the citation information here once available.
+If you use this repository in academic work, please cite the corresponding QuBound paper.
+
+@article{li2025computational,
+  title={Computational Performance Bounds Prediction in Quantum Computing With Unstable Noise},
+  author={Li, Jinyang and Dasgupta, Samudra and Song, Yuhong and Yang, Lei and Humble, Travis and Jiang, Weiwen},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  year={2025},
+  publisher={IEEE}
+}
